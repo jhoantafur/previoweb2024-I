@@ -1,6 +1,5 @@
 
 
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -18,8 +17,6 @@ body {
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     
 }
 
@@ -29,6 +26,7 @@ body {
     font-size: 16px; 
     margin: 10px; 
     padding: 5px;
+
 }
 
 label {
@@ -38,29 +36,46 @@ label {
 
 input {
     
-    padding: 10px;
+   
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 16px; /* Tamaño del texto de los campos */
+    margin: 10px; /* Espacio alrededor de cada campo para evitar que se toquen */
+    padding: 5px; /* Espaciado interior para separar el texto de los bordes */
+    
+    width: 2010x; /* Ancho del botón */
+    
+}
+
+
+.boton {
+
+    align-items: center;
+
+    justify-content: center;
+    display: flex;
+    justify-content: flex-end; /* Alinea los elementos hijos al final del contenedor */
+
 }
 
 button {
-    width: 100%;
+ 
     padding: 10px;
     background-color: #D31024;
-    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-        
     color: white; /* Color de texto */
     font-size: 16px; /* Tamaño del texto del botón */
-    height: 32px; /* Altura del botón */
-    width: 215px; /* Ancho del botón */
+    margin-left: 20px;
     border-radius: 0 0 0 20px; /* Curvatura izquierda baja */
-    border: none; /* Sin borde */
-    cursor: pointer; /* Cursor en forma de mano al pasar por encima */
-    padding: 0 10px; /* Padding horizontal para centrar el texto */
+    height: 32px;
+    width: 215px;
+   
 }
+
+/* height: 32px; Altura del botón
+width: 215px; Ancho del botón */
 
 button:hover {
     background-color: #0056b3;
