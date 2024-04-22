@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <div class ="imagenUFPS ">
+
+
+
+
+    </div>
+
+
+    <div class="login-container">
+       
+        <form name="loginForm"> <!-- action="#" -->
+            <div class="login-box">
+                <label for="email">Código de Estudiante</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div class="login-box">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Iniciar sesión</button>
+        </form>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script> 
+
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyC3WxyMcWz0zCfd7nkp1ybWoIvVl-AawQU",
+        authDomain: "proyectotest-33116.firebaseapp.com",
+        projectId: "proyectotest-33116",
+        storageBucket: "proyectotest-33116.appspot.com",
+        messagingSenderId: "1030512349335",
+        appId: "1:1030512349335:web:66f483f6688df3caef19d2"
+    };
+    firebase.initializeApp(config);
+</script>
+<script src="js/index.js"></script>
+
+
+
+</body>
+</html>
+
